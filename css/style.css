@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --primary:#5956E8;
+    --white:#fff;
+    --strok_white:#E5E5E5;
+    --black:#181818;
+    --black_shad:rgba(24, 24, 24, 70%);
+}
+.navpad{
+    padding: 34px 0px 51px;
+}
+.contact{
+    padding: 13px 24px;
+    background: var(--primary);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.midhover .ull .lii{
+    margin-right: 50px !important;
+}
+.midhover .ull .lii .aa{
+    font-weight: 500;
+    font-size: 18px;
+}
+.midhover .ull .lii .aa:hover{
+    color:var(--primary);
+}
+/* ===============navber part end================== */
+/* ===============banner part start================== */
+#banner{
+    padding: 165px 0px 200px;
+    background: var(--primary);
+}
+#banner .banner_row .h_1{
+    width: 501px;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 80px;
+}
+#banner .banner_row .pra{
+    width: 542px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 25px 0px 30px;
+}
+#banner .banner_row .banner_btn{
+    padding: 13px 22px;
+    background: var(--white);
+    color: var(--primary);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* ===============banner part end================== */
+/* ===============Services part start================== */
+#services{
+    padding: 83px 0px 100px;
+    background: var(--white);
+}
+#services .service_head{
+    color: var(--black);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#services .service_pra{
+    color:var(--black_shad);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 542px;
+    text-align: center;
+    margin: 0 auto;
+}
+#services .service_row_1 .service_design{
+    max-width: 370px;
+    background: var(--white);
+    border: 1px solid var(--strok_white);
+    border-radius: 10px;
+    padding: 63px 48px;
+    
+}
+#services .service_row_1 .service_design .house_icon{
+    font-size: 37px;
+    color: var(--primary);
+    padding: 17px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    transition: all linear;
+}
+#services .service_row_1 .service_design .house_icon:hover{
+    background: var(--primary);
+    color: var(--white);
+}
+#services .service_row_1 .service_design .design_head{
+    color: var(--black);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 0px 20px;
+}
+#services .service_row_1 .service_design .design_pra{
+    color: var(--black_shad);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 274px;
+}
+#services .service_row_2{
+    margin-top: 30px;
+}
+#services .dropshadow{
+    transition: all linear .3s;
+}
+#services .dropshadow:hover{
+    box-shadow: 1px 3px 15px 5px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 1px 3px 15px 5px rgba(0,0,0,0.39);
+    -moz-box-shadow: 1px 3px 15px 5px rgba(0,0,0,0.39);
+}
+/* ===============Services part end================== */
